@@ -1,34 +1,35 @@
-2019-01-20 23:12:50,378 INFO o.s.b.StartupInfoLogger [main] Starting NfrApplication on PREDATOR-PC with PID 15456 (D:\work\gz\nfr\target\classes started by PredatorPy in D:\work\gz\nfr)
-2019-01-20 23:12:50,388 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
-2019-01-20 23:12:50,389 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-01-20 23:12:51,627 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-01-20 23:12:51,677 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
-2019-01-20 23:12:52,402 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5bfccdb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-20 23:12:53,490 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 3100 (http)
-2019-01-20 23:12:53,510 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3100"]
-2019-01-20 23:12:53,526 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2019-01-20 23:12:53,527 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-01-20 23:12:53,546 INFO o.a.j.l.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Python34\Lib\site-packages\PyQt4;C:\Program Files (x86)\Python\Lib\site-packages\PyQt5;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\OpenSSL-Win32\bin;%D3DGEARPATH%;c:\program files\d3dgear;D:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Python27;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\PredatorPy\AppData\Roaming\npm;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;D:\Program Files (x86)\BaseX\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Compiler\MinGW\bin;D:\Program Files\MongoDB\Server\3.2\bin;C:\Users\PredatorPy\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\cmd;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files (x86)\Vim\vim80;C:\Users\PredatorPy\AppData\Local\Android\sdk\platform-tools;C:\Program Files\Python35;C:\Users\PredatorPy\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Nmap;C:\Program Files\Python36;C:\Program Files\Python36\Scripts;C:\Program Files (x86)\Python27\Scripts;C:\Users\PredatorPy\AppData\Roaming\npm;D:\Program Files\JAVA\apache-maven-3.5.3\bin;C:\Users\PredatorPy\AppData\Local\Yarn\bin;.]
-2019-01-20 23:12:53,810 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2019-01-20 23:12:53,811 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3351 ms
-2019-01-20 23:12:54,141 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2019-01-20 23:12:54,411 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2019-01-20 23:12:54,525 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+2019-01-23 23:43:34,722 INFO o.s.b.StartupInfoLogger [main] Starting NfrApplication on PREDATOR-PC with PID 15244 (D:\work\gz\nfr\target\classes started by PredatorPy in D:\work\gz\nfr)
+2019-01-23 23:43:34,809 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-23 23:43:34,864 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-01-23 23:43:36,109 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-23 23:43:36,187 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-01-23 23:43:36,667 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0afab9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-23 23:43:37,434 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 3100 (http)
+2019-01-23 23:43:37,509 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-3100"]
+2019-01-23 23:43:37,579 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2019-01-23 23:43:37,606 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-23 23:43:37,649 INFO o.a.j.l.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Python34\Lib\site-packages\PyQt4;C:\Program Files (x86)\Python\Lib\site-packages\PyQt5;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files\OpenSSL-Win32\bin;%D3DGEARPATH%;c:\program files\d3dgear;D:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Python27;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\PredatorPy\AppData\Roaming\npm;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;D:\Program Files (x86)\BaseX\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Compiler\MinGW\bin;D:\Program Files\MongoDB\Server\3.2\bin;C:\Users\PredatorPy\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\cmd;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files (x86)\Vim\vim80;C:\Users\PredatorPy\AppData\Local\Android\sdk\platform-tools;C:\Program Files\Python35;C:\Users\PredatorPy\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Nmap;C:\Program Files\Python36;C:\Program Files\Python36\Scripts;C:\Program Files (x86)\Python27\Scripts;C:\Users\PredatorPy\AppData\Roaming\npm;D:\Program Files\JAVA\apache-maven-3.5.3\bin;C:\Users\PredatorPy\AppData\Local\Yarn\bin;.]
+2019-01-23 23:43:37,901 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-01-23 23:43:37,929 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2961 ms
+2019-01-23 23:43:38,373 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2019-01-23 23:43:38,469 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-01-23 23:43:38,602 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-01-20 23:12:54,709 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
-2019-01-20 23:12:54,711 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
-2019-01-20 23:12:55,085 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-01-20 23:12:55,316 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-01-20 23:12:55,725 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-01-20 23:12:56,157 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
-2019-01-20 23:12:56,248 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-01-20 23:12:56,531 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3100"]
-2019-01-20 23:12:56,567 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 3100 (http) with context path ''
-2019-01-20 23:12:56,571 INFO o.s.b.StartupInfoLogger [main] Started NfrApplication in 7.226 seconds (JVM running for 8.502)
-2019-01-20 23:12:56,573 INFO c.g.n.NfrApplication [main] App Started at : 2019-01-20T16:12:56.573Z
-2019-01-20 23:16:25,830 INFO o.a.j.l.DirectJDKLog [http-nio-3100-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-01-20 23:16:25,830 INFO o.s.w.s.FrameworkServlet [http-nio-3100-exec-1] Initializing Servlet 'dispatcherServlet'
-2019-01-20 23:16:25,842 INFO o.s.w.s.FrameworkServlet [http-nio-3100-exec-1] Completed initialization in 11 ms
-2019-01-20 23:16:26,071 ERROR c.g.n.c.ErrorHandler [http-nio-3100-exec-1] /bad/myex : My Message
-2019-01-20 23:16:52,256 ERROR c.g.n.c.ErrorHandler [http-nio-3100-exec-3] /bad/first : For input string: "czxcxzczxcxz"
+2019-01-23 23:43:38,720 INFO o.h.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-23 23:43:38,748 INFO o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2019-01-23 23:43:38,992 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-23 23:43:39,267 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-23 23:43:40,272 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-23 23:43:41,066 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-23 23:43:41,247 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-23 23:43:41,926 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-3100"]
+2019-01-23 23:43:42,030 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 3100 (http) with context path ''
+2019-01-23 23:43:42,223 INFO o.s.b.StartupInfoLogger [main] Started NfrApplication in 8.767 seconds (JVM running for 9.875)
+2019-01-23 23:43:42,341 INFO c.g.n.NfrApplication [main] App Started at : 2019-01-23T16:43:42.341Z
+2019-01-23 23:43:54,996 INFO o.a.j.l.DirectJDKLog [http-nio-3100-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-23 23:43:55,060 INFO o.s.w.s.FrameworkServlet [http-nio-3100-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-01-23 23:43:55,099 INFO o.s.w.s.FrameworkServlet [http-nio-3100-exec-2] Completed initialization in 11 ms
+2019-01-23 23:43:55,341 ERROR c.g.n.c.ErrorHandler [http-nio-3100-exec-2] /bad/first : For input string: "czxcxzczxcxz"
+2019-01-23 23:44:03,211 ERROR c.g.n.c.ErrorHandler [http-nio-3100-exec-4] /bad/null : null
+2019-01-23 23:44:15,965 ERROR c.g.n.c.ErrorHandler [http-nio-3100-exec-6] /bad/null : null

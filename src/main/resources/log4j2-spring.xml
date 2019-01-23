@@ -21,6 +21,17 @@
                 <TimeBasedTriggeringPolicy />
             </Policies>
         </RollingFile>
+
+        <JDBC name="MySQLDatabase" tableName="logs">
+            <ConnectionFactory
+                    class="com.gamitology.nfr.log.ConnectionFactory" method="getConnection" />
+            <!--<Column name="id" pattern="%u" />-->
+            <!--<Column name="ENTRY_DATE" isEventTimestamp="true" />-->
+            <!--<Column name="LOGGER" pattern="%logger" />-->
+            <Column name="level" pattern="%level" />
+            <Column name="message" pattern="%m" />
+            <Column name="exception" pattern="%throwable " />
+        </JDBC>
     </Appenders>
 
     <Loggers>
@@ -28,6 +39,7 @@
         <Root level="info">
             <AppenderRef ref="Console" />
             <AppenderRef ref="RollingFile" />
+            <AppenderRef ref="MySQLDatabase" />
         </Root>
 
         <!-- LOG "com.baeldung*" at TRACE level -->
